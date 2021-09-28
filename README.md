@@ -14,3 +14,7 @@ Here is a brief description of the data contained in the repo folders:
 * `alignments`: MSAs of evolved sequences from the final rounds of evolution of the three experiments plus *in silico* generated MSAs (via the SeqEvol package) 
 
 * `BM_parameters`: [bmDCA](https://arxiv.org/abs/2109.04105) parameters to build the sequence landscapes and simulate evolution
+
+Format
+-----
+All alignments are in `fasta.gz` (fasta and gzipped) format except for wt sequences. Once unzipped the AAC6 alignements exceed 100 Mb. Parameters are also in `.gz` format for compression.  
